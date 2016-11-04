@@ -2,7 +2,7 @@ package com.nekruss.collectionsTest;
 
 import com.nekruss.collections.MyStack;
 
-public class MainTest {
+public class MainTestStacks {
 
 	public static void main(String[] args) {
 
@@ -22,9 +22,5 @@ public class MainTest {
 			
 			
 		}
-	
-		
-
 	}
-
 }
