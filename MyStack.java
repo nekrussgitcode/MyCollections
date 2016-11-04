@@ -19,19 +19,16 @@ public class MyStack<T> {
 							// создании
 	private T[] stackArray;// стек основан на массиве
 	private int top; // вершина стэка
-	// T object;
-
+	
 	public MyStack(int s) {
-
 		top = -1;
-
 		maxSize = s;
 		stackArray = (T[]) (new Object[maxSize]);	// поэтому создаем массив из
-													// объектов и передаем их
-													// нашему типy
+								// объектов и передаем их
+								// нашему типy
 	}
 
-	public void push(T j) {
+	public void push(T j) {					// вставка
 		stackArray[++top] = j;
 	}
 
@@ -47,7 +44,7 @@ public class MyStack<T> {
 		return (top == -1);
 	}
 
-	public boolean isFull() {
+	public boolean isFull() {  				// наполнен
 		return (top == maxSize - 1);
 	}
 
